@@ -10,4 +10,4 @@ while x <= 100:
 print (SomaQuad)
 print (QuadSoma)
 print (QuadSoma - SomaQuad)
-    
+input ("Pressione ENTER para sair")
