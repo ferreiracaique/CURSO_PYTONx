@@ -17,3 +17,4 @@ while numero < 100:
     numero = numero + 1
 
 print("A soma dos números primos abaixo de 100 é:", soma)
+# melhorar esse codico
