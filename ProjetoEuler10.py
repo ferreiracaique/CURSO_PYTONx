@@ -1,7 +1,7 @@
 soma = 0
 numero = 2
 
-while numero < 1000:
+while numero < 100:
     divisor = 2
     quantidade_divisores = 0
 
@@ -16,4 +16,4 @@ while numero < 1000:
 
     numero = numero + 1
 
-print("A soma dos números primos abaixo de 1000 é:", soma)
+print("A soma dos números primos abaixo de 100 é:", soma)
