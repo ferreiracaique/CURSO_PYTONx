@@ -1,11 +1,20 @@
 l = list()
 soma = 0
 q = 0
-num = int (input ("digite um numero: "))
+print("--------------------------------------------------------------------------")
+print("NESSE PROGRAMA VOCE IRÁ DIGITAR UM CONJUNTO DE NUMEROS MAIORES QUE ZERO")
+print("PARA FINALIZAR O CONJUNTO DIGITE ZERO")
+print("--------------------------------------------------------------------------")
+print()
+input(print("TECLE ENTER PARA INICIAR O PROGRAMA"))
+print()
+
+num = int (input ("digite um numero inteiro: "))
 while num > 0:
     soma += num
     l.append (num)
-    num = int (input ( "digite um numero: "))
+    num = int (input ( "digite um numero inteiro: "))
+
 media = soma / len(l)
 print ("os numrros digitados foram", l)
 print ("A media é:", media)
@@ -24,4 +33,10 @@ menor = l [0]
 for x in l:
     if x < menor:
         menor = x
-print ("O maior numero é: ",menor)
+print ("O menor numero é: ",menor)
+pares = 0
+for p in range (len(l)-1):
+    if l[p] < l[p+1]:
+        pares += 1
+
+print(pares)
