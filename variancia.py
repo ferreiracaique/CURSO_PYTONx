@@ -6,7 +6,7 @@ print("NESSE PROGRAMA VOCE IRÁ DIGITAR UM CONJUNTO DE NUMEROS MAIORES QUE ZERO"
 print("PARA FINALIZAR O CONJUNTO DIGITE ZERO")
 print("--------------------------------------------------------------------------")
 print()
-input(print("TECLE ENTER PARA INICIAR O PROGRAMA"))
+input ("TECLE ENTER PARA INICIAR O PROGRAMA")
 print()
 
 num = int (input ("digite um numero inteiro: "))
@@ -39,4 +39,4 @@ for p in range (len(l)-1):
     if l[p] < l[p+1]:
         pares += 1
 
-print(pares)
+print("O numero de pares consecutivos é: " ,pares)
