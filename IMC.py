@@ -1,8 +1,9 @@
+""" PROGRAMA PARA CALCULAR IMC """
 peso = float (input ("Digite seu peso em kg "))
 altura = float ( input("Digite sua altura em metros "))
-imc = peso / (altura * altura)
+imc = round (peso / altura **2, 1)
 print ("Seu IMC é: ", imc)
-if imc < 18.5:
+if  imc < 18.5:
     print("Abaixo do peso")
 if 18.5 <= imc <= 24.9:
     print("Peso Normal ,saudável")
