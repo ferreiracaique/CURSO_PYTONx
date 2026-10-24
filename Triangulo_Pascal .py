@@ -8,4 +8,4 @@ while linha > cont:
     l1 = [1] + l1 + [1]
     print (l1)
     l = l1
-    cont += 1
+    cont += 1 
